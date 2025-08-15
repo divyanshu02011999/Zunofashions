@@ -14,8 +14,12 @@ const MobileLogin = () => {
   const handleSendOtp = async (e) => {
     e.preventDefault();
     if (!window.recaptchaVerifier) {
+      if (!auth) {
+        alert('Firebase Auth is not initialized. Check your firebaseConfig.js.');
+        return;
+      }
       window.recaptchaVerifier = new RecaptchaVerifier('recaptcha-container', {
-        size: 'invisible',
+        size: 'normal', // Make reCAPTCHA visible for debugging
         callback: (response) => {},
       }, auth);
     }
