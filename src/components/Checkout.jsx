@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Checkout.css';
 
 const paymentGateways = [
-  { name: 'UPI', url: 'https://paytm.com/' },
+  { name: 'UPI', url: 'upi://pay?pa=7651936546-2@ybl&pn=ZUNO%20Fashion' },
   { name: 'Credit/Debit Card', url: 'https://razorpay.com/' },
   { name: 'Netbanking', url: 'https://payu.in/' },
   { name: 'Wallets', url: 'https://phonepe.com/' },
