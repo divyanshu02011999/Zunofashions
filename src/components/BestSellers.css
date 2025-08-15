@@ -1,0 +1,50 @@
+.best-sellers {
+  background: #f8f8f8;
+  padding: 2rem 0;
+  text-align: center;
+}
+.best-sellers h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1.5rem;
+}
+.bestseller-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.bestseller-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 220px;
+  transition: transform 0.2s;
+  cursor: pointer;
+  border: 2px solid #eee;
+}
+.bestseller-card:hover {
+  transform: scale(1.05);
+  border: 2px solid gold;
+}
+.bestseller-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+.bestseller-info {
+  padding: 1rem;
+}
+.bestseller-title {
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.bestseller-price {
+  color: gold;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
