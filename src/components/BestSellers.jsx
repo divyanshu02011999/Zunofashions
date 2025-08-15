@@ -2,9 +2,9 @@ import React from 'react';
 import './BestSellers.css';
 
 const bestSellers = [
-  { name: "Classic Black Tee", image: "/assets/bestseller1.jpg", price: "₹499" },
-  { name: "Gold Accent Tee", image: "/assets/bestseller2.jpg", price: "₹599" },
-  { name: "Oversized Graphic Tee", image: "/assets/bestseller3.jpg", price: "₹699" },
+  { name: "Classic Black Tee", image: "/Zunofashions/assets/bestseller1.jpg", price: "₹499" },
+  { name: "Gold Accent Tee", image: "/Zunofashions/assets/bestseller2.jpg", price: "₹599" },
+  { name: "Oversized Graphic Tee", image: "/Zunofashions/assets/bestseller3.jpg", price: "₹699" },
 ];
 
 const BestSellers = () => (

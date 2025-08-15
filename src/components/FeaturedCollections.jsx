@@ -2,10 +2,10 @@ import React from 'react';
 import './FeaturedCollections.css';
 
 const collections = [
-  { name: "Men's T-shirts", image: "/assets/mens.jpg" },
-  { name: "Women's T-shirts", image: "/assets/womens.jpg" },
-  { name: "Oversized", image: "/assets/oversized.jpg" },
-  { name: "Graphic", image: "/assets/graphic.jpg" },
+  { name: "Men's T-shirts", image: "/Zunofashions/assets/mens.jpg" },
+  { name: "Women's T-shirts", image: "/Zunofashions/assets/womens.jpg" },
+  { name: "Oversized", image: "/Zunofashions/assets/oversized.jpg" },
+  { name: "Graphic", image: "/Zunofashions/assets/graphic.jpg" },
 ];
 
 const FeaturedCollections = () => (
