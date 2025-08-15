@@ -5,6 +5,7 @@ import FeaturedCollections from './components/FeaturedCollections';
 import BestSellers from './components/BestSellers';
 import ProductGallery from './components/ProductGallery';
 import Checkout from './components/Checkout';
+import MobileLogin from './components/MobileLogin';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
   <BestSellers />
   <ProductGallery />
   <Checkout />
+  <MobileLogin />
   {/* Add more homepage sections here: New Arrivals, etc. */}
     </>
   );
